@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
 	<title>MB Experts ApS</title>
@@ -10,7 +10,7 @@
 			opacity: 0;
 		}
 	</style>
-	<link rel="stylesheet" href="css/style.min.css?_v=20250102171656">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250128165153">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,7 +53,7 @@
 		</div>
 		<div class="info-bar">
 			<div class="info-bar__container">
-				<a href="#" class="info-bar__logo" aria-label="Company Logotype"><img src="img/icons/logo.webp" alt="Company logo"></a>
+				<a href="#" class="info-bar__logo">MB Experts ApS</a>
 				<address class="info-bar__contacts contacts">
 					<ul class="contacts__list">
 						<li class="contacts__item">
@@ -107,16 +107,18 @@
 			</div>
 		</header>
 		<main class="page">
+			<!-- Hero section -->
 			<section class="page__hero hero">
+				<!-- Slider -->
 				<div class="hero__slider swiper">
 					<div class="hero__wrapper swiper-wrapper">
 						<div class="hero__slide swiper-slide">
 							<img class="hero__image ibg parallax-bg" src="img/hero/slider_img_01.webp" alt="Person holding a yellow hard hat, wearing a tool belt with various tools.">
 							<div class="hero__container">
 								<div class="hero__content">
-									<div class="hero__label">Best Quality</div>
-									<h1 class="hero__title">Build Green House</h1>
-									<a href="#" class="hero__button button">Read more</a>
+									<div class="hero__label">Kvalitet</div>
+									<h1 class="hero__title">Vi sikrer løsninger, der møder krav</h1>
+									<a href="#" data-goto=".contact-us" data-goto-header class="hero__button button">Kontakt os</a>
 								</div>
 							</div>
 						</div>
@@ -124,9 +126,19 @@
 							<img class="hero__image ibg parallax-bg" src="img/hero/slider_img_02.webp" alt="Person in safety gear using an angle grinder on metal, with flying sparks.">
 							<div class="hero__container">
 								<div class="hero__content">
-									<div class="hero__label">Get solution</div>
-									<h1 class="hero__title">Provide best service</h1>
-									<a href="#" class="hero__button button">Read more</a>
+									<div class="hero__label">Fleksibilitet</div>
+									<h1 class="hero__title">Vi tilpasser os kunders behov</h1>
+									<a href="#" data-goto=".contact-us" data-goto-header class="hero__button button">Kontakt os</a>
+								</div>
+							</div>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<img class="hero__image ibg parallax-bg" src="img/hero/slider_img_01.webp" alt="Person holding a yellow hard hat, wearing a tool belt with various tools.">
+							<div class="hero__container">
+								<div class="hero__content">
+									<div class="hero__label">Pålidelighed</div>
+									<h1 class="hero__title">Vi leverer punktligt og fagligt</h1>
+									<a href="#" data-goto=".contact-us" data-goto-header class="hero__button button">Kontakt os</a>
 								</div>
 							</div>
 						</div>
@@ -135,74 +147,77 @@
 					<button type="button" class="hero__button-next">&#62;</button>
 				</div>
 			</section>
+			<!-- Services section -->
 			<section class="page__services services">
 				<div class="services__container">
-					<h2 class="services__title title"><span>Quality Services</span></h2>
+					<h2 class="services__title title"><span>Kvalitetsydelser</span></h2>
 					<div class="services__items">
 						<article class="services__item item-services">
 							<div class="item-services__icon">
 								<img src="img/services/services_icon_01.webp" alt="Icon of a hand holding a house.">
 							</div>
-							<h3 class="item-services__title">Safety Building</h3>
+							<h3 class="item-services__title">Sikker Byggeproces</h3>
 							<div class="item-services__text text">
-								<p>At vero eos et accusamus et iusto odiodignissimos laborumducimus qui blanditiis praesentium voluptatum deleniti</p>
+								<p>Vi sikrer, at alle byggeprojekter udføres sikkert og i overensstemmelse med gældende regler og standarder. Din tryghed er vores prioritet.</p>
 							</div>
 						</article>
 						<article class="services__item item-services">
 							<div class="item-services__icon">
 								<img src="img/services/services_icon_02.webp" alt="Icon of a paint roller.">
 							</div>
-							<h3 class="item-services__title">House Renovation</h3>
+							<h3 class="item-services__title">Husrenovering</h3>
 							<div class="item-services__text text">
-								<p>At vero eos et accusamus et iusto odiodignissimos laborumducimus qui blanditiis praesentium voluptatum deleniti</p>
+								<p>Vi tilbyder komplette renoveringsløsninger, der forvandler dit hjem til en moderne og funktionel bolig.</p>
 							</div>
 						</article>
 						<article class="services__item item-services">
 							<div class="item-services__icon">
 								<img src="img/services/services_icon_03.webp" alt="Icon of a person working on a roof.">
 							</div>
-							<h3 class="item-services__title">Metal Roofing</h3>
+							<h3 class="item-services__title">Tagarbejde</h3>
 							<div class="item-services__text text">
-								<p>At vero eos et accusamus et iusto odiodignissimos laborumducimus qui blanditiis praesentium voluptatum deleniti</p>
+								<p>Specialister i holdbare og pålidelige tagløsninger , der beskytter dit hjem mod vind og vejr.</p>
 							</div>
 						</article>
 						<article class="services__item item-services">
 							<div class="item-services__icon">
 								<img src="img/services/services_icon_04.webp" alt="Icon of a person wearing a hard hat.">
 							</div>
-							<h3 class="item-services__title">Building Consultant</h3>
+							<h3 class="item-services__title">Byggerådgivning</h3>
 							<div class="item-services__text text">
-								<p>At vero eos et accusamus et iusto odiodignissimos laborumducimus qui blanditiis praesentium voluptatum deleniti</p>
+								<p>Få professionel rådgivning om dine byggeprojekter fra erfarne eksperter, der hjælper dig med at træffe de rette beslutninger.</p>
 							</div>
 						</article>
 						<article class="services__item item-services">
 							<div class="item-services__icon">
 								<img src="img/services/services_icon_05.webp" alt="Icon of a construction crane.">
 							</div>
-							<h3 class="item-services__title">General Contracting</h3>
+							<h3 class="item-services__title">Gulve</h3>
 							<div class="item-services__text text">
-								<p>At vero eos et accusamus et iusto odiodignissimos laborumducimus qui blanditiis praesentium voluptatum deleniti</p>
+								<p>AInstallér flotte og slidstærke gulve, der tilføjer stil og funktionalitet til ethvert rum.</p>
 							</div>
 						</article>
 						<article class="services__item item-services">
 							<div class="item-services__icon">
 								<img src="img/services/services_icon_06.webp" alt="Icon of a paintbrush.">
 							</div>
-							<h3 class="item-services__title">Laminate Flooring</h3>
+							<h3 class="item-services__title">Generelle Entrepriseløsninger</h3>
 							<div class="item-services__text text">
-								<p>At vero eos et accusamus et iusto odiodignissimos laborumducimus qui blanditiis praesentium voluptatum deleniti</p>
+								<p>Vi håndterer entrepriseløsninger fra start til slut, med fokus på effektivitet og kvalitet i hvert trin.</p>
 							</div>
 						</article>
 					</div>
 				</div>
 			</section>
+			<!-- Contact us section -->
 			<section class="page__contact-us contact-us">
 				<div class="contact-us__container">
-					<h2 class="contact-us__title title"><span>Contact Us</span></h2>
+					<h2 class="contact-us__title title"><span>Kontakt os</span></h2>
 					<div class="contact-us__body">
 						<div class="contact-us__map">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19087.12850360437!2d-6.4356352!3d53.2735715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48677422ef8ba923%3A0xc889f0a2afb8398c!2sRathcoole%20Park!5e0!3m2!1sen!2sie!4v1735748597529!5m2!1sen!2sie" allowfullscreen="" loading="lazy"></iframe>
 						</div>
+						<!-- Form -->
 						<form action="files/sendmail/sendmail.php" method="POST" data-goto-error class="contact-us__form form">
 							<div class="form__inputs">
 								<input type="text" name="form[]" data-validate data-required data-error="Error" placeholder="Name*" class="form__input input" aria-label="Enter your name">
@@ -221,13 +236,11 @@
 			<div class="footer__top">
 				<div class="footer__container">
 					<div class="footer__body">
-						<a href="#" class="footer__logo" aria-label="Company Logotype">
-							<img src="img/icons/footer_logo.webp" alt="Company logo">
-						</a>
+						<a href="#" class="footer__logo">MB Experts ApS</a>
 						<h3 class="footer__title footer__title--menu"><span>Our sitemap</span></h3>
 						<h3 class="footer__title footer__title--contacts"><span>Our office</span></h3>
 						<div class="footer__text text">
-							<p>We create Premium WordPress themes & plugins for more than three years. Our team goal is to reunite the elegance of unique. We create unique and easy to use flexible more than quality products. Our team goal is to reunite the elegance of unique. We create unique and easy to use flexible more than quality products.</p>
+							<p>MB Experts ApS er en professionel virksomhed, der specialiserer sig i at levere fleksible og skræddersyede bemandings- og rekrutteringsløsninger til virksomheder i alle brancher. Med fokus på kvalitet, effektivitet og pålidelighed hjælper vi vores kunder med at finde de rette medarbejdere til midlertidige og permanente stillinger.</p>
 						</div>
 						<ul class="footer__menu menu-footer">
 							<li class="menu-footer__item"><a href="#" class="menu-footer__link">&gt; Home</a></li>
@@ -295,7 +308,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20250102171656"></script>
+	<script src="js/app.min.js?_v=20250128165153"></script>
 </body>
 
 </html>
